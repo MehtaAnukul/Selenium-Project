@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Listeners">
+    <test verbose="2" preserve-order="true" name="C:/Users/Anukul/IdeaProjects/TestNGListenerOnFailure1">
+        <classes/>
+    </test>
+
+    <listeners>
+        <listener class-name="TestListener"></listener>
+    </listeners>
+
+    <test name="Login Test" >
+        <classes>
+            <class name="LoginTest"/>
+            <class name="TestBase"></class>
+        </classes>
+    </test>
+</suite>

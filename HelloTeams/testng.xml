@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="End 2 End Cases" thread-count="5" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <test name="HelloTeams">
+        <classes>
+            <class name="helloTeams.account.LoginTests"/>
+            <class name="helloTeams.account.RegistrationTests"/>
+            <class name="helloTeams.account.CreateTeamTests"></class>
+            <class name="helloTeams.account.CreateTeamMemberTests"></class>
+            <class name="helloTeams.account.TeamDashboardTests"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

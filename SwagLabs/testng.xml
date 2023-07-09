@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Anukul/IdeaProjects/SwagLabs">
+        <classes>
+            <class name="account.LoginTest"/>
+            <class name="account.ProductTest"/>
+            <class name="account.ProductDescriptionTest"/>
+            <class name="account.CheckOutTest"/>
+            <class name="account.CheckOutOverviewTest"/>
+            <class name="account.YourCartTest"/>
+            <class name="common.EndToEndTest"/>
+            <class name="common.HeaderTest"/>
+        </classes>
+    </test>
+</suite>

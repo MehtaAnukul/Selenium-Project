@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="End 2 End Cases" thread-count="5" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <test name="Session">
+        <classes>
+            <class name="HTTPMethods.DeleteAPITests"/>
+            <class name="HTTPMethods.GETAPITests"/>
+            <class name="HTTPMethods.POSTAPITests"/>
+            <class name="HTTPMethods.PUTANDPATCHAPITests"/>
+            <class name="sessionTests.APITests"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

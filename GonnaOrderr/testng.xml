@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Anukul/IdeaProjects/GonnaOrderr">
+        <classes>
+            <class name="account.HeaderTests">
+                <methods>
+                    <include name="clickOnGonnaOrderLogoText"/>
+                    <include name="clickOnSupportText"/>
+                    <include name="clickOnAdminDropDown"/>
+                </methods>
+            </class>
+            <class name="account.LoginTest">
+                <methods>
+                    <include name="verifyLoginWithValidCredentials"/>
+                    <include name="verifyLoginWithInvalidCredentials"/>
+                    <include name="verifyLoginWithoutConfirmAccount"/>
+                    <include name="verifyForgotPasswordLinkWorkProperly"/>
+                </methods>
+            </class>
+            <class name="account.RegistrationTests">
+                <methods>
+                    <include name="verifyRegistrationWithValidDetails"/>
+                    <include name="verifyValidationMessageDisplayedAllMandatoryFields"/>
+                    <include name="verifyValidationMessageDisplayedForAlreadyTakenEmail"/>
+                    <include name="verifyValidationMessageDisplayedForShortPassword"/>
+                    <include name="verifyValidationMessageDisplayedForPasswordAndConfirmPasswordNotMatch"/>
+                    <include name="verifyLoginLinkWorkAsExpected"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

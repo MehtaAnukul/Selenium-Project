@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Step 1 - Navigate to login page]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 - Entering valid sign in details and login to application]]>
+    </line>
+    <line>
+      <![CDATA[Step 3 - Navigate to Product page]]>
+    </line>
+    <line>
+      <![CDATA[Step 4 - Click on Test.allTheThings() T-Shirt (Red) ProductName]]>
+    </line>
+    <line>
+      <![CDATA[Step 5 -  Verify that 'Add To Cart' button is replaced by 'Remove' button when user click on 'Add To Cart' button]]>
+    </line>
+    <line>
+      <![CDATA[Step 6 - Verify that Product is added in 'YourCart' page when click on 'AddToCart' button]]>
+    </line>
+    <line>
+      <![CDATA[Step 7 - Verify that 'YourCart' page displayed when click on YourCart icon]]>
+    </line>
+    <line>
+      <![CDATA[Step 8 - Verify that user navigate to Checkout: Your Information page when click on 'Checkout Button']]>
+    </line>
+    <line>
+      <![CDATA[Step 9 - Fill out CheckOut form with valid details and click on 'Continue' button]]>
+    </line>
+    <line>
+      <![CDATA[Step 10 - Navigate to CheckOut: Overview page when click on 'Continue' button]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-01-29T14:32:52 IST" name="Default Suite" finished-at="2021-01-29T14:33:11 IST" duration-ms="19021">
+    <groups>
+    </groups>
+    <test started-at="2021-01-29T14:32:52 IST" name="SwagLabs" finished-at="2021-01-29T14:33:11 IST" duration-ms="19021">
+      <class name="account.CheckOutTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:account.CheckOutTest@2ed0fbae]" started-at="2021-01-29T14:32:52 IST" name="beforeSuite" finished-at="2021-01-29T14:32:52 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:account.CheckOutTest@2ed0fbae]" started-at="2021-01-29T14:32:52 IST" name="setUp" finished-at="2021-01-29T14:32:55 IST" duration-ms="2760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="AboveAllProcess()[pri:0, instance:account.CheckOutTest@2ed0fbae]" started-at="2021-01-29T14:32:55 IST" name="AboveAllProcess" finished-at="2021-01-29T14:33:07 IST" duration-ms="11634" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1 - Navigate to login page]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 - Entering valid sign in details and login to application]]>
+            </line>
+            <line>
+              <![CDATA[Step 3 - Navigate to Product page]]>
+            </line>
+            <line>
+              <![CDATA[Step 4 - Click on Test.allTheThings() T-Shirt (Red) ProductName]]>
+            </line>
+            <line>
+              <![CDATA[Step 5 -  Verify that 'Add To Cart' button is replaced by 'Remove' button when user click on 'Add To Cart' button]]>
+            </line>
+            <line>
+              <![CDATA[Step 6 - Verify that Product is added in 'YourCart' page when click on 'AddToCart' button]]>
+            </line>
+            <line>
+              <![CDATA[Step 7 - Verify that 'YourCart' page displayed when click on YourCart icon]]>
+            </line>
+            <line>
+              <![CDATA[Step 8 - Verify that user navigate to Checkout: Your Information page when click on 'Checkout Button']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AboveAllProcess -->
+        <test-method signature="verifyThatUserCheckOutSuccessfullyWithValidDetails()[pri:0, instance:account.CheckOutTest@2ed0fbae]" started-at="2021-01-29T14:33:07 IST" name="verifyThatUserCheckOutSuccessfullyWithValidDetails" finished-at="2021-01-29T14:33:11 IST" duration-ms="3936" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 9 - Fill out CheckOut form with valid details and click on 'Continue' button]]>
+            </line>
+            <line>
+              <![CDATA[Step 10 - Navigate to CheckOut: Overview page when click on 'Continue' button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserCheckOutSuccessfullyWithValidDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:account.CheckOutTest@2ed0fbae]" started-at="2021-01-29T14:33:11 IST" name="tearDown" finished-at="2021-01-29T14:33:11 IST" duration-ms="635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatUserCheckOutSuccessfullyWithValidDetails status=SUCCESS method=CheckOutTest.verifyThatUserCheckOutSuccessfullyWithValidDetails()[pri:0, instance:account.CheckOutTest@2ed0fbae] output=Step 9 - Fill out CheckOut form with valid details and click on 'Continue' button]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- account.CheckOutTest -->
+    </test> <!-- SwagLabs -->
+  </suite> <!-- Default Suite -->
+</testng-results>

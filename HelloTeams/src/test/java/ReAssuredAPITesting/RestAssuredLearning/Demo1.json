@@ -1,0 +1,12 @@
+{
+ "Create" : [
+   {
+    "name": "cerulean",
+    "job": "leader",
+    },
+    {
+    "name": "fuchsia rose",
+     job: "leader",
+    }
+]
+}
